@@ -61,7 +61,7 @@ function sendMessage() {
 
   // Example: Sending the message to a hypothetical backend endpoint
   // Replace 'YOUR_BACKEND_ENDPOINT' with the actual endpoint URL
-  const backendEndpoint = 'http://127.0.0.1:5000/send';
+  const backendEndpoint = 'https://personal-porfolio-backend-theta.vercel.app/send';
 
   // Assuming you're using fetch for the request
   fetch(backendEndpoint, {
