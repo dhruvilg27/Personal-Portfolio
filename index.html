@@ -454,13 +454,13 @@
 
               <form action="" class="contact-form">
 
-                <input type="text" name="name" placeholder="Name" required class="contact-input">
+                <input type="text" id="name" name="name" placeholder="Name" required class="contact-input">
 
-                <input type="email" name="email" placeholder="Email" required class="contact-input">
+                <input type="email" id="email" name="email" placeholder="Email" required class="contact-input">
 
-                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+                <textarea name="message" placeholder="Message" id="message" required class="contact-input"></textarea>
 
-                <button type="submit" class="btn-submit">Submit Message</button>
+                <button type="button" class="btn-submit" onclick="sendMessage()">Submit Message</button>
 
               </form>
 
